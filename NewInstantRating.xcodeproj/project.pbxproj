@@ -12,6 +12,10 @@
 		E5E268A71CBDBD2200BD782B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E268A51CBDBD2200BD782B /* Main.storyboard */; };
 		E5E268A91CBDBD2200BD782B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E268A81CBDBD2200BD782B /* Assets.xcassets */; };
 		E5E268AC1CBDBD2200BD782B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E268AA1CBDBD2200BD782B /* LaunchScreen.storyboard */; };
+		E5E268B51CBDBFD500BD782B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E268B41CBDBFD500BD782B /* User.swift */; };
+		E5E268B71CBDBFDD00BD782B /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E268B61CBDBFDD00BD782B /* Group.swift */; };
+		E5E268B91CBDBFE400BD782B /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E268B81CBDBFE400BD782B /* Rating.swift */; };
+		E5E268BB1CBDBFEE00BD782B /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E268BA1CBDBFEE00BD782B /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E5E268A81CBDBD2200BD782B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E268AB1CBDBD2200BD782B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E268AD1CBDBD2200BD782B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E268B41CBDBFD500BD782B /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E5E268B61CBDBFDD00BD782B /* Group.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		E5E268B81CBDBFE400BD782B /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		E5E268BA1CBDBFEE00BD782B /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				E5E268A11CBDBD2200BD782B /* AppDelegate.swift */,
 				E5E268A31CBDBD2200BD782B /* ViewController.swift */,
+				E5E268B41CBDBFD500BD782B /* User.swift */,
+				E5E268B61CBDBFDD00BD782B /* Group.swift */,
+				E5E268B81CBDBFE400BD782B /* Rating.swift */,
+				E5E268BA1CBDBFEE00BD782B /* Question.swift */,
 				E5E268A51CBDBD2200BD782B /* Main.storyboard */,
 				E5E268A81CBDBD2200BD782B /* Assets.xcassets */,
 				E5E268AA1CBDBD2200BD782B /* LaunchScreen.storyboard */,
@@ -137,6 +149,10 @@
 			files = (
 				E5E268A41CBDBD2200BD782B /* ViewController.swift in Sources */,
 				E5E268A21CBDBD2200BD782B /* AppDelegate.swift in Sources */,
+				E5E268B91CBDBFE400BD782B /* Rating.swift in Sources */,
+				E5E268BB1CBDBFEE00BD782B /* Question.swift in Sources */,
+				E5E268B51CBDBFD500BD782B /* User.swift in Sources */,
+				E5E268B71CBDBFDD00BD782B /* Group.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +302,7 @@
 				E5E268B21CBDBD2200BD782B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
